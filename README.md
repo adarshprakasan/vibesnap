@@ -53,5 +53,43 @@ VibeSnap is a feature-rich social media application built with React.js, Firebas
 2. Navigate to the project directory:
    ```bash
    cd vibesnap
+3. Install dependencies:
+   ```bash
+   npm i
+4. Set up your Firebase configuration in a .env file:
+   ```bash
+   VITE_FIREBASE_API_KEY=your-api-key
+   VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+   VITE_FIREBASE_PROJECT_ID=your-project-id
+   VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+   VITE_FIREBASE_APP_ID=your-app-id
+   VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id
+5. Start the development server
+   ```bash
+   npm run dev
 
+---
 
+## 🚀 Deployment
+
+### Hosting on Firebase
+1. Install Firebase CLI:
+   ```bash
+   npm install -g firebase-tools
+2. Login to Firebase:
+   ```bash
+   firebase login
+3. Initialize Firebase Hosting:
+   ```bash
+   firebase init
+4. Build and deploy the project:
+   ```bash
+   npm run build
+   firebase deploy
+
+---
+
+## 🤝 Contribution
+
+- Feel free to fork this repository and contribute by submitting a pull request. For major changes, open an issue first to discuss what you'd like to change.
